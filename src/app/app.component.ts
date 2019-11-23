@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'charity-angular';
-}
+  selectedDate: any;
+
+  onSelect(event){
+  console.log(event);
+  this.selectedDate= event;}}
+
